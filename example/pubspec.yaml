@@ -1,0 +1,29 @@
+name: flutter_res_example
+description: Demonstrates how to use the flutter_res plugin.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_res:
+    path: ../
+
+  cupertino_icons: ^1.0.2
+  build_runner: 2.0.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/image/2.0x/gsws.jpeg
+    - assets/image/3.0x/gsws.jpeg
+    - assets/image/gsws.jpeg
